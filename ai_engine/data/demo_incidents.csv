@@ -1,0 +1,21 @@
+text,label
+"container terminated after memory limit exceeded oom killed process",resource_exhaustion
+"pod repeatedly restarted after memory cgroup out of memory event",resource_exhaustion
+"cpu throttling and memory pressure caused service latency",resource_exhaustion
+"node disk pressure eviction due to exhausted ephemeral storage",resource_exhaustion
+"memory usage exceeded configured limit and process was killed",resource_exhaustion
+"scheduler reports insufficient cpu and memory for pending workload",resource_exhaustion
+"application panic nil pointer exception caused process crash",application_failure
+"readiness probe failed after service returned internal server error",application_failure
+"deployment pods crash after unhandled exception during startup",application_failure
+"application logs show database connection timeout and request failures",application_failure
+"container exits with nonzero status after configuration parsing error",application_failure
+"service endpoint unavailable because process failed health check",application_failure
+"unknown executable downloaded then launched by unexpected process",suspicious_activity
+"repeated failed login attempts followed by successful privileged login",suspicious_activity
+"unexpected outbound connection to an unrecognized external address",suspicious_activity
+"file integrity changed outside the approved deployment window",suspicious_activity
+"privileged container attempted access to host process namespace",suspicious_activity
+"service account token used from an unexpected workload identity",suspicious_activity
+"cryptocurrency miner process detected consuming node compute",suspicious_activity
+"audit log records unauthorized change to network policy",suspicious_activity

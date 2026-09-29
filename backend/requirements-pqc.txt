@@ -1,0 +1,2 @@
+# Optional native-backed OQS integration; does not alter the default installation.
+liboqs-python==0.16.0
